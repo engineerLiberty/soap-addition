@@ -10,7 +10,7 @@ public class AdditionService {
     static final String NAMESPACE_URI = "http://soapTest.com";
 
 
-    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "AddRequest")
+    @PayloadRoot(namespace = NAMESPACE_URI, localPart = "AdditionRequest")
     @ResponsePayload
     public AdditionResponse addNumbers(@RequestPayload AdditionRequest additionRequest) {
 
