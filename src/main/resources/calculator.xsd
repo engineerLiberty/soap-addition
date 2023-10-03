@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
-           xmlns:tns="http://soapTest.com"
-        targetNamespace="http://soapTest.com">
+           xmlns:tns="http://soap-api.com/trustBanc/soapapi"
+        targetNamespace="http://soap-api.com/trustBanc/soapapi">
 
 <xs:element name="AdditionRequest">
 <xs:complexType>

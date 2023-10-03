@@ -1,13 +1,15 @@
 package com.trustBanc.soapapi;
 
 import org.springframework.stereotype.Service;
+import org.springframework.ws.server.endpoint.annotation.Endpoint;
 import org.springframework.ws.server.endpoint.annotation.PayloadRoot;
 import org.springframework.ws.server.endpoint.annotation.RequestPayload;
 import org.springframework.ws.server.endpoint.annotation.ResponsePayload;
 
-@Service
+
+@Endpoint
 public class AdditionService {
-    static final String NAMESPACE_URI = "http://soapTest.com";
+    static final String NAMESPACE_URI = "http://soap-api.com/trustBanc/soapapi";
 
 
     @PayloadRoot(namespace = NAMESPACE_URI, localPart = "AdditionRequest")

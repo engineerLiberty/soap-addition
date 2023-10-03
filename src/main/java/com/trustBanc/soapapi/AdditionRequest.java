@@ -2,8 +2,6 @@ package com.trustBanc.soapapi;
 
 import jakarta.xml.bind.annotation.XmlElement;
 import jakarta.xml.bind.annotation.XmlRootElement;
-import lombok.AllArgsConstructor;
-import lombok.Data;
 
 @XmlRootElement
 public class AdditionRequest {
